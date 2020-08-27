@@ -1,0 +1,160 @@
+/* App CSS */
+
+@font-face {
+    font-family: "GT-America";
+    src: url("fonts/GT-America_regular.otf");
+
+  }
+  html, body {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      font-family: "GT-America"
+  }
+
+  #renderCanvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+  }
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu{
+
+    position: fixed;
+    top:0;
+    left:0;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #00ff00;
+
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+
+    box-shadow: 3px 3px #fff;
+  }
+
+  .pop_up{
+
+    position: fixed;
+    top:0;
+    right:0;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000000;
+
+    height: 20px;
+
+    text-align: center;
+    font-size: 12px;
+
+    border: 8px #00ff00 solid;
+  }
+
+  .menu_artistas_sala{
+    position: fixed;
+    top:60px;
+    right:0;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000000;
+    border: 8px #00ff00 solid;
+
+    text-align: center;
+    font-size: 12px;
+
+  }
+
+  .menu_artistas_sala ul{
+    padding: 15px;
+  }
+
+  .menu_artistas_sala ul li p:hover{
+
+    text-decoration: line-through;
+
+  }
+
+  .nav_button{
+
+    position: fixed;
+
+    background-color: #000;
+    color: #00ff00;
+
+
+    height: 20px;
+
+    text-align: center;
+
+    box-shadow: 3px 3px #fff;
+  }
+  .nav_button p{
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+  .prev_arrow{
+    margin: 10px;
+    padding: 2px;
+    width: 20px;
+    top:75%;
+    left: 0;
+
+  }
+
+  .next_arrow{
+    margin: 10px;
+    padding: 2px;
+    width: 20px;
+    top:75%;
+    right: 0;
+
+  }
+
+  .center_camera{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 10px;
+    bottom: 0;
+    left: 50%;
+
+    font-size: 12px;
+
+  }
+
+  .toggle_camera{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 10px;
+    top: 0;
+    left: 50%;
+
+    font-size: 12px;
+
+  }
