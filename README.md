@@ -1,6 +1,14 @@
-## Babylon 4 Starter
+## Bronx- Virtual Babylon 4.1 Starter
 
-Based on Create React App 2, but only for it's great support for webpack and typescript
+Using the Babylon4 Starter by Leon Radley https://github.com/leon/starter-babylonjs
+
+Based on Create React App 2, but only for it's great support for webpack and typescript.
+
+### Download
+Download and unzip all files to your prefered location
+
+### Assets
+Inside public folder create an assets folder and put models, textures and fonts inside
 
 ### Install deps `npm install`
 In the project directory run npm install to download everything you need to start developing
